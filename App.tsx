@@ -1,7 +1,6 @@
 import React from 'react';
 import { 
   Linkedin, 
-  FileText, 
   Globe, 
   Mail, 
   Users, 
@@ -109,17 +108,11 @@ END:VCARD`;
 
         {/* Primary Actions Section (Moved from bottom) */}
         <section className="animate-fade-in-up delay-100">
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-1">
             <SocialButton 
               href="https://www.linkedin.com/in/kateryna-golushko-733a36224/"
               label="Connect on LinkedIn"
               icon={<Linkedin className="w-5 h-5 text-[#0077b5]" />}
-              primary={false}
-            />
-            <SocialButton 
-              href="https://www.dropbox.com/scl/fi/uvalp4h72lzuxyh8su409/Kateryna-Golushko-CV-_.pdf?rlkey=qrl7v673iutptyzvg4elf4m64&st=ii9soxuq&dl=1"
-              label="Download My CV"
-              icon={<FileText className="w-5 h-5 text-red-500" />}
               primary={false}
             />
           </div>
