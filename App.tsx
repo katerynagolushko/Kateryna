@@ -4,6 +4,14 @@ const portrait = "https://momentummill.com/kateryna.jpg";
 
 const projects = [
   {
+    name: "Selling challenge for technical founders",
+    description: "For technical founders who already have a product and need to sell it.",
+    href: "https://momentummill.com/GTMSprint/",
+    label: "momentummill.com/GTMSprint",
+    preview: "/previews/gtm-sprint.jpg",
+    upcoming: true,
+  },
+  {
     name: "London Startup Events",
     description: "Founder workshops, networking, and meetups, displayed on Launch Club Capital.",
     href: "https://launchclub.capital",
@@ -23,14 +31,6 @@ const projects = [
     href: "https://momentummill.com",
     label: "momentummill.com",
     preview: "/previews/momentummill.jpg",
-  },
-  {
-    name: "Selling challenge for technical founders",
-    description: "For technical founders who already have a product and need to sell it.",
-    href: "https://momentummill.com/GTMSprint/",
-    label: "momentummill.com/GTMSprint",
-    preview: "/previews/gtm-sprint.jpg",
-    upcoming: true,
   },
 ];
 
@@ -65,7 +65,7 @@ export default function App() {
       </header>
 
       <section className="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
+        <h2 id="projects-heading">Projects (all made by me)</h2>
         <ul className="project-list">
           {projects.map((project) => (
             <li className="project" key={project.href}>
