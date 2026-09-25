@@ -69,8 +69,9 @@ a:focus-visible {
 
 .portrait {
   display: block;
-  width: 76px;
-  height: 76px;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -83,21 +84,14 @@ a:focus-visible {
   line-height: 1.08;
 }
 
-/* BIO PLACEHOLDER: replace the sentence in .bio-placeholder when Kateryna sends her bio. */
-.bio-placeholder {
-  margin: 1.6rem 0 0;
-  padding: 0.1rem 0 0.1rem 0.9rem;
-  border-left: 1px solid var(--text);
-}
-
-.bio-placeholder p {
-  margin: 0;
-  font-family: var(--serif);
-  font-style: italic;
+.bio {
+  margin: 1.35rem 0 0;
+  font-family: var(--sans);
+  font-style: normal;
   font-weight: 400;
-  font-size: 1.12rem;
-  line-height: 1.45;
-  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text);
 }
 
 .contact {

@@ -47,10 +47,7 @@ export default function App() {
         />
         <h1 className="name">Kateryna Golushko</h1>
 
-        {/* BIO PLACEHOLDER: replace the sentence below when Kateryna sends her bio. */}
-        <section className="bio-placeholder" aria-label="Biography">
-          <p>A short bio will go here.</p>
-        </section>
+        <p className="bio">Startup Ecosystem Builder in London and San Francisco. Interconnect founders, investors, and operators. Organize events and ship products for fun</p>
 
         <ul className="contact">
           <li>
