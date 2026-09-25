@@ -65,7 +65,7 @@ export default function App() {
       </header>
 
       <section className="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
+        <h2 id="projects-heading">Projects (all made by me)</h2>
         <ul className="project-list">
           {projects.map((project) => (
             <li className="project" key={project.href}>
